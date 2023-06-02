@@ -1,0 +1,10 @@
+times=("cruzeiro","vasco","flamengo","chapecoense",
+       "atletico-mineiro","Fluminense","Avai","ACB",
+       "Corintias","Náutico","Marcelia","Gama",
+       "Brasília","Madureira","Bahia","Londrina",
+       "Palmeiras","São Paulo","Bota Fogo","west")
+print(times)
+print(f"os cinco primeiros colocados são:{times[0:5]}")
+print(f"os últimos 4 colocados são:{times[16:20]}")
+print(sorted(times))
+print(times.index("chapecoense"))
